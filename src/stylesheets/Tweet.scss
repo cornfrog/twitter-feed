@@ -1,1 +1,33 @@
 /* YOUR STYLING HERE */
+.parent-element-for-tweet-component{
+    margin-top: .25%;
+    margin-bottom: .25%;
+    border: .25rem solid black;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tweet-poster-data{
+    font-size: 1.10rem;
+}
+
+.tweet-interactions{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    font-size: 1.15rem;
+}
+
+.interaction-button{
+    color: grey;
+}
+
+.liked{
+    color: red;
+}
+
+.retweeted{
+    color: green;
+}

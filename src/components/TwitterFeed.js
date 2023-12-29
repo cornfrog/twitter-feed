@@ -16,10 +16,15 @@ const TwitterFeed = (props) => {
     // create a tweet component
     // and pass it the currently
     // mapped tweet data
-    return <Tweet post={tweet}/>
+    return <Tweet 
+      post={tweet}
+      key={tweet.id_str}
+    />
   });
   return(
-    <div>Twitter Feed Component</div>
+    <div className='tweets'>
+      {tweets}
+    </div>
   )
 };
 
